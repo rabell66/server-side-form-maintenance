@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="post">
+    <input type="text" class = "bodyText" name="listItem" placeholder "add a todo">
+    <input type = "submit" class = "bodyButton" name = "notcheckbox" value="Add a todo">
+    </form>
+   
+     <form action="/" method = "post">
+       <div class = "todoList">
+    {{#todos}}
+         
+        <input type="submit" class ="button" name = "checkBox" value ="{{.}}" >
+
+    {{/todos}}
+      </div>
+    </form>
+  
+    
+     <div class = "completed">
+        <h3>Completed</h3>
+    
+    
+     </div>
+
+
+
+     
+    
+</body>
+</html>
