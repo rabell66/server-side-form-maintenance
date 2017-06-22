@@ -30,3 +30,24 @@ h3{
     border-radius: 5px;
     background-color:papayawhip;
 }
+.button{
+    width: 10vw;
+    margin: .25vw;
+    text-align: left;
+    position: relative;
+    right: 8vw;
+    font-size: large;
+}
+ul{
+list-style:none;
+
+}
+li{
+    padding: .5vw;
+    padding: .5vw;
+    margin: 0 37vw;
+    position: relative;
+    top: 3vw;
+    right: 5vw;
+    
+}
